@@ -1,0 +1,118 @@
+{
+  "header": {
+    "name": "Christopher Kühtz",
+    "jobTitle": "Frontend Developer",
+    "jobSubtitle": "Scrum Apprentice",
+    "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
+    "email": "christopherkuhtz@gmail.com",
+    "github": "https://github.com/chriskuhtz",
+    "contactMe": "Ich freue mich darauf, über LinkedIn oder Email mit Dir in Kontakt zu treten."
+  },
+
+  "workHistory": {
+    "headline": "Meine Erfahrungen als Entwickler",
+    "content": {
+      "Wechselgott": {
+        "skills": [
+          "React",
+          "Redux",
+          "Scrum Master",
+          "Typescript",
+          "Material UI",
+          "Figma",
+          "Docker",
+          "Keycloak",
+          "Jest",
+          "CodeceptJS",
+          "Jira",
+          "bitbucket"
+        ],
+        "time": "06.2021-heute",
+        "content": "Aktuell arbeite ich bei dem Startup Unternehmen Wechselgott als Frontend Entwickler. In meiner Zeit hier habe ich mit React, Typescript, Material UI und Redux neue Features für unsere Web App entwickelt, an dem Entwurf und der Implementierung einer neuen Frontend und Design Architektur mitgearbeitet und ein End to End Testing System mit Codecept JS und integriertem Reporting an Jira erstellt. Außerdem habe ich in den letzten Monaten mein Team als Teilzeit Scrum Master unterstützt, indem ich unsere Daily Meetings und Retrospektiven organisiert habe."
+      },
+      "CodeCamp:N": {
+        "skills": [
+          "VueJs",
+          "Vuex",
+          "Scrum Developer",
+          "Bootstrap",
+          "SCSS",
+          "Jira"
+        ],
+        "time": "10.2020-04.2021",
+        "content": " Ich war bei CodeCamp:N, einer Tochtergesellschaft der Nürnberger Versicherung, für 6 Monate als Praktikant in der Frontend Entwicklung tätig. Im Projekt Meine Vorsorgedokumente habe ich neue Features mit Vue.js entwickelt und maßgeblich das Design der Web App mit Bootstrap und einem custom SCSS theme umgebaut. Hier habe ich das erste Mal in einem nach Scrum organisierten Team gearbeitet."
+      },
+      "dev.jetzt Bootcamp": {
+        "skills": [
+          "React",
+          "Typescript",
+          "Bootstrap",
+          "Node.js",
+          "Express",
+          "Postgres"
+        ],
+        "time": "02.2020-03.2020",
+        "content": "Meine erste offizielle Erfahrung als Entwickler war das dev.jetzt Bootcamp von Mantro. Als einer von 12 Teilnehmern (Bewerbungsprozess, Teilnahme kostenlos) habe ich über 3 Wochen einen Einblick in den MERN Stack und in die Prozesse der Software Entwicklung bekommen."
+      }
+    }
+  },
+  "projects": {
+    "headline": "Meine Projekte und Kurse",
+    "content": {
+      "Pokemon Micro Frontends": {
+        "skills": [
+          "Micro Frontends",
+          "Monorepo",
+          "React",
+          "Typescript",
+          "Material UI",
+          "Bootstrap"
+        ],
+        "link": "Github Link",
+        "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich habe Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps gegliedert, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen"
+      },
+      "Full Stack Open": {
+        "skills": [
+          "React",
+          "Node.js",
+          "Express",
+          "Jest",
+          "Redux",
+          "GraphQL",
+          "Typescript",
+          "Material UI",
+          "Bootstrap",
+          "Docker"
+        ],
+        "link": "https://fullstackopen.com/en/",
+        "content": "Mit diesem kostenlosen Kurs (mit bewerteten Übungen) der Universität von Helsinki vertiefe ich im Moment mein Wissen über Full Stack Development. Besonders möchte ich mehr strukturierte Frontend Backend Kommunikation und GraphQL Datenbanken lernen."
+      },
+      "Coursera Javascript": {
+        "skills": ["Advanced Javascript"],
+        "link": "https://coursera.com",
+        "content": "Generators and Iterators"
+      }
+    }
+  },
+  "history": {
+    "headline": "Wie und warum ich zum Entwickler wurde",
+    "content": {
+      "Bevor ...": {
+        "eyeCatcher": ".. ich Frontend Entwickler war, ",
+        "content": "habe ich International Production Engineering and Management studiert. Allerdings wurde mir schnell bewusst, dass die Arbeitsweise der Ingenieure nicht zu mir passt. Im Zuge meiner Bachelorarbeit hatte ich erste Kontakte mit der Programmierung, indem ich ein Skript geschrieben habe, um exportierte Koordinaten aus einem CAD Programm in einem anderen nutzbar zu machen. Leider musste ich 2019, trotz abgeschlossener Bachelorarbeit, mein Studium wegen einer nicht bestandenen Prüfung ohne Abschluss beenden."
+      },
+      "Wie ...": {
+        "eyeCatcher": ".. ich vom beinahe Ingenieur zum Entwickler wurde.",
+        "content": " Im Herbst 2019 habe ich beschlossen, meine Karriere als Entwickler zu beginnen und habe mir über Skillshare und Youtube die ersten Grundlagen in der Web Entwicklung selbst beigebracht. Ende des Jahres wurde ich zum dev.jetzt Bootcamp akzeptiert und habe moderne Tools und Frameworks kennengelernt. Den Sommer 2020 habe ich zuhause (obviously lol) damit verbracht, komplexere Projekte in React (Pokemon Map Maker, Battle System) zu coden und Bewerbungen zu schreiben, bis ich im Oktober 2020 mein Praktikum bei Codecamp:N beginnen durfte. Hier konnte ich das erste Mal im Team mit erfahrenen Kollegen arbeiten. 18 Monate nach meinen ersten Hello World Scripts begann mein erster Tag bei Wechselgott als Vollzeit Frontend Entwickler."
+      },
+      "Was ...": {
+        "eyeCatcher": ".. macht mich zu einem guten Entwickler?",
+        "content": " Ich bin begeisterter Self Learner, Ausprobierer und Kreativer. Ich baue meine eigenen Möbel, habe schon mein eigenes Bier gebraut und Brot gebacken und setze in all meinen Projekten auf eine kreativ-iterative Arbeitsweise. Software Development ermöglicht es mir jeden Tag, neues zu lernen, schnell neue Ideen und meine Projekte von der Idee bis zum Deployment und weiter zu begleiten."
+      },
+      "Wohin ...": {
+        "eyeCatcher": " .. möchte ich mich weiterentwickeln.",
+        "content": " In meiner nächsten Rolle möchte ich mehr über die Architektur und Struktur von großen Frontend Projekten lernen und durch die Zusammenarbeit mit erfahrenen Mentoren meine Fähigkeiten als Entwickler ausbauen. Ich möchte auch mehr über agile Arbeit und Organisation lernen und gerne wieder Verantwortung für das Anwenden agiler Methoden übernehmen."
+      }
+    }
+  }
+}

@@ -1,10 +1,15 @@
+import { Stack, Container, useMediaQuery } from "@mui/material";
 import Head from "next/head";
 import Header from "../segments/Header";
-import Skills from "../segments/Skills";
-import WorkHistory from "../segments/WorkHistory";
+import WorkExperience from "../segments/WorkExperience";
 import Projects from "../segments/Projects";
-import HowWhyWhere from "../segments/HowWhyWhere";
+import History from "../segments/History";
+import ContactMe from "../segments/ContactMe";
+import SwipableTemplate from "../templates/SwipableTemplate";
+import { useTheme } from "@mui/system";
 export default function Home() {
+  const theme = useTheme();
+  const SmOrUp = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <div>
       <Head>
@@ -14,11 +19,26 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
-        <Skills />
-        <WorkHistory />
-        <Projects />
-        <HowWhyWhere />
+        {SmOrUp ? (
+          <Container sx={{ py: 3 }} maxWidth="md">
+            <Stack spacing={3} direction="column">
+              <Header />
+              <WorkExperience />
+              <Projects />
+              <History />
+            </Stack>
+          </Container>
+        ) : (
+          <Container>
+            <SwipableTemplate>
+              <Header />
+              <WorkExperience />
+              <Projects />
+              <History />
+              <ContactMe />
+            </SwipableTemplate>
+          </Container>
+        )}
       </main>
     </div>
   );
