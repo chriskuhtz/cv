@@ -18,13 +18,14 @@ const SwipableTemplate = ({ children }) => {
 
   return (
     <Box
-      minHeight="100vh"
+      height="100vh"
       display={"flex"}
       flexDirection="column"
       justifyContent={"space-between"}
       py={3}
     >
       <SwipeableViews
+        sx={{ overflow: "scroll", height: "95vh" }}
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}
         index={activeStep}
         onChangeIndex={handleStepChange}
