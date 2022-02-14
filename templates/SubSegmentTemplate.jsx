@@ -1,3 +1,4 @@
+import { useTheme } from "@emotion/react";
 import { ExpandMore } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import {
@@ -8,12 +9,15 @@ import {
   Link,
   Typography,
   Divider,
+  useMediaQuery,
 } from "@mui/material";
 import { useState } from "react";
 import ChipTemplate from "./ChipTemplate";
 
 const SubSegmentTemplate = ({ data }) => {
-  const [open, setOpen] = useState(data[1].defaultOpen);
+  const theme = useTheme();
+  const isSmOrUp = useMediaQuery(theme.breakpoints.sm);
+  const [open, setOpen] = useState(data[1].defaultOpen && isSmOrUp);
   return (
     <Grid item xs={12} sm={open ? 12 : 6} md={open ? 12 : 4} key={data[0]}>
       <Grid container spacing={2}>
