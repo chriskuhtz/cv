@@ -19,8 +19,7 @@ export default function Home() {
       </Head>
 
       <main>
-        {
-          /*SmOrUp ? (*/
+        {SmOrUp ? (
           <Container sx={{ py: 3 }} maxWidth="md">
             <Stack spacing={3} direction="column">
               <Header />
@@ -29,7 +28,7 @@ export default function Home() {
               <History />
             </Stack>
           </Container>
-          /*) : (
+        ) : (
           <Container>
             <SwipableTemplate>
               <Header />
@@ -39,8 +38,7 @@ export default function Home() {
               <ContactMe />
             </SwipableTemplate>
           </Container>
-        )*/
-        }
+        )}
       </main>
     </div>
   );

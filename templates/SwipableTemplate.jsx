@@ -18,7 +18,7 @@ const SwipableTemplate = ({ children }) => {
 
   return (
     <Box
-      height="100vh"
+      minHeight={"100vh"}
       display={"flex"}
       flexDirection="column"
       justifyContent={"space-between"}
@@ -29,6 +29,7 @@ const SwipableTemplate = ({ children }) => {
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
+        animateHeight
       >
         {children}
       </SwipeableViews>
