@@ -22,7 +22,9 @@ const Header = () => {
       </Grid>
       <Grid item xs={12} sm={7}>
         <Stack direction="column" spacing={2}>
-          <Typography variant="h2">{header.name}</Typography>
+          <Typography color="primary" variant="h2">
+            {header.name}
+          </Typography>
           <Typography color="primary" variant="h4">
             {header.jobTitle} und {header.jobSubtitle}
           </Typography>
