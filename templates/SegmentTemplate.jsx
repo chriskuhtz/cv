@@ -6,7 +6,7 @@ const SegmentTemplate = ({ data, children }) => {
     <Grid
       container
       rowSpacing={{ xs: 2 }}
-      columnSpacing={{ xs: 2 }}
+      columnSpacing={{ xs: 0, sm: 0 }}
       alignItems="flex-start"
     >
       <Grid item xs={12}>

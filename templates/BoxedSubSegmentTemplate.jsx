@@ -30,7 +30,7 @@ const BoxedSubSegmentTemplate = ({ data }) => {
           p: 1,
         }}
       >
-        <Grid container spacing={2}>
+        <Grid container rowspacing={2} columnSpacing={{ xs: 0, sm: 2 }}>
           <Grid item xs={12}>
             <Typography color="primary" variant="h6">
               {data[0]}
