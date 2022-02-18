@@ -76,7 +76,10 @@
           "Bootstrap",
           "lerna"
         ],
-        "link": { "href": "pokemonmodules.netlify.app", "text": "Zum Projekt" },
+        "link": {
+          "href": "https://www.pokemonmodules.netlify.app",
+          "text": "Zum Projekt"
+        },
         "githubLink": "https://github.com/chriskuhtz/pokemonModules",
         "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich habe Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps gegliedert, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
       },
