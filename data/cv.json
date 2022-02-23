@@ -77,7 +77,7 @@
           "lerna"
         ],
         "link": {
-          "href": "https://www.pokemonmodules.netlify.app/",
+          "href": "https://pokemonmodules.netlify.app/",
           "text": "Zum Projekt"
         },
         "githubLink": "https://github.com/chriskuhtz/pokemonModules",
