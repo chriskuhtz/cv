@@ -1,7 +1,6 @@
-import { history } from "../data/cv";
 import { BoxedSubSegmentTemplate, SegmentTemplate } from "../templates";
 
-const History = () => {
+const History = ({ history }) => {
   return (
     <SegmentTemplate data={history}>
       {Object.entries(history.content).map((d) => (

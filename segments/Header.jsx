@@ -1,10 +1,9 @@
 import { Box, Grid, Stack, Typography } from "@mui/material";
 import Image from "next/image";
 import SocialChips from "../components/SocialChips";
-import { header } from "../data/cv";
 import profilePicture from "../data/profile.png";
 
-const Header = () => {
+const Header = ({ header, english }) => {
   return (
     <Grid container spacing={{ xs: 0, sm: 4 }} alignItems="center">
       <Grid item xs={12} sm={5}>
@@ -26,7 +25,7 @@ const Header = () => {
             {header.name}
           </Typography>
           <Typography color="primary" variant="h4">
-            {header.jobTitle} und {header.jobSubtitle}
+            {header.jobTitle} {english ? "and" : "und"} {header.jobSubtitle}
           </Typography>
           <SocialChips />
         </Stack>

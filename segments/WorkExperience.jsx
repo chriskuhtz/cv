@@ -1,7 +1,6 @@
-import { workHistory } from "../data/cv";
 import SubSegmentTemplate from "../templates/SubSegmentTemplate";
 import SegmentTemplate from "../templates/SegmentTemplate";
-const WorkExperience = () => {
+const WorkExperience = ({ workHistory }) => {
   return (
     <SegmentTemplate data={workHistory}>
       {Object.entries(workHistory.content).map((d) => (

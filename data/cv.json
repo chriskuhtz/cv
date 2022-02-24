@@ -1,137 +1,289 @@
 {
-  "header": {
-    "name": "Christopher Kühtz",
-    "jobTitle": "Frontend Developer",
-    "jobSubtitle": "Scrum Apprentice",
-    "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
-    "email": "christopherkuhtz@gmail.com",
-    "github": "https://github.com/chriskuhtz",
-    "contactMe": "Ich freue mich darauf, über LinkedIn oder Email mit Dir in Kontakt zu treten."
-  },
+  "de": {
+    "header": {
+      "name": "Christopher Kühtz",
+      "jobTitle": "Frontend Developer",
+      "jobSubtitle": "Scrum Apprentice",
+      "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
+      "email": "christopherkuhtz@gmail.com",
+      "github": "https://github.com/chriskuhtz",
+      "contactMe": "Ich freue mich darauf, über LinkedIn oder Email mit Dir in Kontakt zu treten."
+    },
 
-  "workHistory": {
-    "headline": "Meine Erfahrungen als Entwickler",
-    "content": {
-      "Wechselgott": {
-        "defaultOpen": true,
-        "skills": [
-          "React",
-          "Redux",
-          "Scrum Master",
-          "Typescript",
-          "Material UI",
-          "Figma",
-          "Docker",
-          "Keycloak",
-          "Jest",
-          "CodeceptJS",
-          "Jira",
-          "bitbucket"
-        ],
-        "link": { "href": "https://www.wechselgott.de", "text": "zur Firma" },
-        "time": "06.2021-heute",
-        "content": "Aktuell arbeite ich bei dem Startup Unternehmen Wechselgott als Frontend Entwickler. In meiner Zeit hier habe ich mit React, Typescript, Material UI und Redux neue Features für unsere Web App entwickelt, an dem Entwurf und der Implementierung einer neuen Frontend und Design Architektur mitgearbeitet und ein End to End Testing System mit Codecept JS und integriertem Reporting an Jira erstellt. Außerdem habe ich in den letzten Monaten mein Team als Teilzeit Scrum Master unterstützt, indem ich unsere Daily Meetings und Retrospektiven organisiert habe."
-      },
-      "CodeCamp:N": {
-        "skills": [
-          "VueJs",
-          "Vuex",
-          "Scrum Developer",
-          "Bootstrap",
-          "SCSS",
-          "Jira"
-        ],
-        "link": { "href": "https://www.codecamp-n.com", "text": "zur Firma" },
-        "time": "10.2020-04.2021",
-        "content": " Ich war bei CodeCamp:N, einer Tochtergesellschaft der Nürnberger Versicherung, für 6 Monate als Praktikant in der Frontend Entwicklung tätig. Im Projekt Meine Vorsorgedokumente habe ich neue Features mit Vue.js entwickelt und maßgeblich das Design der Web App mit Bootstrap und einem custom SCSS theme umgebaut. Hier habe ich das erste Mal in einem nach Scrum organisierten Team gearbeitet."
-      },
-      "dev.jetzt Bootcamp": {
-        "skills": [
-          "React",
-          "Typescript",
-          "Bootstrap",
-          "Node.js",
-          "Express",
-          "MongoDB"
-        ],
-        "link": {
-          "href": "https://www.mantro.net/?gclid=EAIaIQobChMIk76Qgsn-9QIVidV3Ch2myAvKEAAYASAAEgJHO_D_BwE",
-          "text": "zur Firma"
+    "workHistory": {
+      "headline": "Meine Erfahrungen als Entwickler",
+      "content": {
+        "Wechselgott": {
+          "defaultOpen": true,
+          "skills": [
+            "React",
+            "Redux",
+            "Scrum Master",
+            "Typescript",
+            "Material UI",
+            "Figma",
+            "Docker",
+            "Keycloak",
+            "Jest",
+            "CodeceptJS",
+            "Jira",
+            "bitbucket"
+          ],
+          "link": { "href": "https://www.wechselgott.de", "text": "zur Firma" },
+          "time": "06.2021-heute",
+          "content": "Aktuell arbeite ich bei dem Startup Unternehmen Wechselgott als Frontend Entwickler. In meiner Zeit hier habe ich mit React, Typescript, Material UI und Redux neue Features für unsere Web App entwickelt, an dem Entwurf und der Implementierung einer neuen Frontend und Design Architektur mitgearbeitet und ein End to End Testing System mit Codecept JS und integriertem Reporting an Jira erstellt. Außerdem habe ich in den letzten Monaten mein Team als Teilzeit Scrum Master unterstützt, indem ich unsere Daily Meetings und Retrospektiven organisiert habe."
         },
-        "time": "02.2020-03.2020",
-        "content": "Meine erste offizielle Erfahrung als Entwickler war das dev.jetzt Bootcamp von Mantro. Als einer von 12 Teilnehmern (Bewerbungsprozess, Teilnahme kostenlos) habe ich über 3 Wochen einen Einblick in den MERN Stack und in die Prozesse der Software Entwicklung bekommen."
+        "CodeCamp:N": {
+          "skills": [
+            "VueJs",
+            "Vuex",
+            "Scrum Developer",
+            "Bootstrap",
+            "SCSS",
+            "Jira"
+          ],
+          "link": { "href": "https://www.codecamp-n.com", "text": "zur Firma" },
+          "time": "10.2020-04.2021",
+          "content": " Ich war bei CodeCamp:N, einer Tochtergesellschaft der Nürnberger Versicherung, für 6 Monate als Praktikant in der Frontend Entwicklung tätig. Im Projekt Meine Vorsorgedokumente habe ich neue Features mit Vue.js entwickelt und maßgeblich das Design der Web App mit Bootstrap und einem custom SCSS theme umgebaut. Hier habe ich das erste Mal in einem nach Scrum organisierten Team gearbeitet."
+        },
+        "dev.jetzt Bootcamp": {
+          "skills": [
+            "React",
+            "Typescript",
+            "Bootstrap",
+            "Node.js",
+            "Express",
+            "MongoDB"
+          ],
+          "link": {
+            "href": "https://www.mantro.net/?gclid=EAIaIQobChMIk76Qgsn-9QIVidV3Ch2myAvKEAAYASAAEgJHO_D_BwE",
+            "text": "zur Firma"
+          },
+          "time": "02.2020-03.2020",
+          "content": "Meine erste offizielle Erfahrung als Entwickler war das dev.jetzt Bootcamp von Mantro. Als einer von 12 Teilnehmern (Bewerbungsprozess, Teilnahme kostenlos) habe ich über 3 Wochen einen Einblick in den MERN Stack und in die Prozesse der Software Entwicklung bekommen."
+        }
+      }
+    },
+    "projects": {
+      "headline": "Meine Projekte und Kurse",
+      "content": {
+        "Pokemon Monorepo": {
+          "skills": [
+            "Micro Frontends",
+            "Monorepo",
+            "React",
+            "Typescript",
+            "Material UI",
+            "Bootstrap",
+            "lerna"
+          ],
+
+          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
+          "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich habe Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps gegliedert, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
+        },
+        "Dieser Lebenslauf": {
+          "skills": ["Next.js", "React", "Material UI"],
+
+          "githubLink": "https://github.com/chriskuhtz/cv",
+          "content": "Da ein Lebenslauf komplett statisch ist, war es das perfekte Beispielprojekt, um Next.js als Static Site Generator auszuprobieren"
+        },
+
+        "Full Stack Open": {
+          "skills": [
+            "React",
+            "Node.js",
+            "GraphQL",
+            "Express",
+            "Jest",
+            "Redux",
+            "Typescript",
+            "Material UI",
+            "Bootstrap",
+            "Docker"
+          ],
+          "link": {
+            "href": "https://fullstackopen.com/en/",
+            "text": "Zum Kurs"
+          },
+
+          "content": "Mit diesem kostenlosen Kurs (mit bewerteten Übungen) der Universität von Helsinki vertiefe ich im Moment mein Wissen über Full Stack Development. Besonders möchte ich mehr strukturierte Frontend Backend Kommunikation und GraphQL Datenbanken lernen."
+        },
+        "Modern JavaScript: Iterators and Generators": {
+          "skills": ["Advanced Javascript", "Iterators", "Generators"],
+          "link": {
+            "href": "https://www.coursera.org/account/accomplishments/verify/LP7XMZ6PQS3A?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project",
+            "text": "Zum Kurs"
+          },
+          "content": "Ein kurzer Coursera Kurs über die fortgeschrittenen Javascript Konzepte von Iterators und Generators."
+        }
+      }
+    },
+    "history": {
+      "headline": "Wie und warum ich zum Entwickler wurde",
+      "content": {
+        "Bevor ...": {
+          "eyeCatcher": ".. ich Frontend Entwickler war, ",
+          "content": "habe ich International Production Engineering and Management studiert. Allerdings wurde mir schnell bewusst, dass die Arbeitsweise der Ingenieure nicht zu mir passt. Im Zuge meiner Bachelorarbeit hatte ich erste Kontakte mit der Programmierung. Leider musste ich 2019, trotz abgeschlossener Bachelorarbeit, mein Studium wegen einer nicht bestandenen Prüfung ohne Abschluss beenden."
+        },
+        "Wie ...": {
+          "eyeCatcher": ".. ich vom beinahe Ingenieur zum Entwickler wurde.",
+          "content": " Im Herbst 2019 habe ich beschlossen, meine Karriere als Entwickler zu beginnen und habe mir über Skillshare und Youtube die Grundlagen der Web Entwicklung selbst beigebracht. Ende des Jahres wurde ich zum dev.jetzt Bootcamp akzeptiert und habe dort moderne Tools und Frameworks kennengelernt. Den Sommer 2020 habe ich zuhause (obviously lol) damit verbracht, komplexere Projekte in React (Pokemon Map Maker, Battle System) zu coden und Bewerbungen zu schreiben, bis ich im Oktober 2020 mein Praktikum bei Codecamp:N beginnen durfte. Hier konnte ich das erste Mal im Team mit erfahrenen Kollegen arbeiten. 18 Monate nach meinen ersten Hello World Tutorials begann mein erster Tag bei Wechselgott als Vollzeit Frontend Entwickler."
+        },
+        "Was ...": {
+          "eyeCatcher": ".. macht mich zu einem guten Entwickler?",
+          "content": " Ich bin begeisterter Self Learner, Ausprobierer und Kreativer. Ich baue meine eigenen Möbel, habe schon mein eigenes Bier gebraut und Brot gebacken und setze in all meinen Projekten auf eine kreativ-iterative Arbeitsweise. Software Development ermöglicht es mir, schnell neue Ideen und meine Projekte von der Idee bis zum Deployment und weiter zu begleiten."
+        },
+        "Wohin ...": {
+          "eyeCatcher": " .. möchte ich mich weiterentwickeln.",
+          "content": " In meiner nächsten Rolle möchte ich mehr über die Architektur und Struktur von großen Frontend Projekten lernen und durch die Zusammenarbeit mit erfahrenen Mentoren meine Fähigkeiten als Entwickler ausbauen. Ich möchte auch mehr über agile Arbeit und Organisation lernen und gerne wieder Verantwortung für das Anwenden agiler Methoden übernehmen."
+        }
       }
     }
   },
-  "projects": {
-    "headline": "Meine Projekte und Kurse",
-    "content": {
-      "Pokemon Monorepo": {
-        "skills": [
-          "Micro Frontends",
-          "Monorepo",
-          "React",
-          "Typescript",
-          "Material UI",
-          "Bootstrap",
-          "lerna"
-        ],
+  "eng": {
+    "header": {
+      "name": "Christopher Kuhtz",
+      "jobTitle": "Frontend Developer",
+      "jobSubtitle": "Scrum Apprentice",
+      "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
+      "email": "christopherkuhtz@gmail.com",
+      "github": "https://github.com/chriskuhtz",
+      "contactMe": "Please feel free to contact me on LinkedIn or via email"
+    },
 
-        "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-        "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich habe Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps gegliedert, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
-      },
-      "Dieser Lebenslauf": {
-        "skills": ["Next.js", "React", "Material UI"],
-
-        "githubLink": "https://github.com/chriskuhtz/cv",
-        "content": "Da ein Lebenslauf komplett statisch ist, war es das perfekte Beispielprojekt, um Next.js als Static Site Generator auszuprobieren"
-      },
-
-      "Full Stack Open": {
-        "skills": [
-          "React",
-          "Node.js",
-          "GraphQL",
-          "Express",
-          "Jest",
-          "Redux",
-          "Typescript",
-          "Material UI",
-          "Bootstrap",
-          "Docker"
-        ],
-        "link": { "href": "https://fullstackopen.com/en/", "text": "Zum Kurs" },
-
-        "content": "Mit diesem kostenlosen Kurs (mit bewerteten Übungen) der Universität von Helsinki vertiefe ich im Moment mein Wissen über Full Stack Development. Besonders möchte ich mehr strukturierte Frontend Backend Kommunikation und GraphQL Datenbanken lernen."
-      },
-      "Modern JavaScript: Iterators and Generators": {
-        "skills": ["Advanced Javascript", "Iterators", "Generators"],
-        "link": {
-          "href": "https://www.coursera.org/account/accomplishments/verify/LP7XMZ6PQS3A?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project",
-          "text": "Zum Kurs"
+    "workHistory": {
+      "headline": "Experience as a Developer",
+      "content": {
+        "Wechselgott": {
+          "defaultOpen": true,
+          "skills": [
+            "React",
+            "Redux",
+            "Scrum Master",
+            "Typescript",
+            "Material UI",
+            "Figma",
+            "Docker",
+            "Keycloak",
+            "Jest",
+            "CodeceptJS",
+            "Jira",
+            "bitbucket"
+          ],
+          "link": {
+            "href": "https://www.wechselgott.de",
+            "text": "company link"
+          },
+          "time": "06.2021-heute",
+          "content": "I currently work at a Startup called Wechselgott as a Frontend Developer. I have developed new Features for the web app, implemented a new frontend architecture with my coworkers and introduced end to end testing with codeceptJS. I also organize my team's daily meeting and retrospectives. "
         },
-        "content": "Ein kurzer Coursera Kurs über die fortgeschrittenen Javascript Konzepte von Iterators und Generators."
+        "CodeCamp:N": {
+          "skills": [
+            "VueJs",
+            "Vuex",
+            "Scrum Developer",
+            "Bootstrap",
+            "SCSS",
+            "Jira"
+          ],
+          "link": {
+            "href": "https://www.codecamp-n.com",
+            "text": "company link"
+          },
+          "time": "10.2020-04.2021",
+          "content": "I was an intern at Codecamp:N for six months. During my Internship, i worked on a web app with vue.js and bootstrap and was part of a scrum team for the first time."
+        },
+        "dev.jetzt Bootcamp": {
+          "skills": [
+            "React",
+            "Typescript",
+            "Bootstrap",
+            "Node.js",
+            "Express",
+            "MongoDB"
+          ],
+          "link": {
+            "href": "https://www.mantro.net/?gclid=EAIaIQobChMIk76Qgsn-9QIVidV3Ch2myAvKEAAYASAAEgJHO_D_BwE",
+            "text": "company link"
+          },
+          "time": "02.2020-03.2020",
+          "content": "I was one of 12 accepted participants for the mantro dev.jetzt Bootcamp, during which i gained first experiences with MERN Stack development and the day to day processes of a software development company."
+        }
       }
-    }
-  },
-  "history": {
-    "headline": "Wie und warum ich zum Entwickler wurde",
-    "content": {
-      "Bevor ...": {
-        "eyeCatcher": ".. ich Frontend Entwickler war, ",
-        "content": "habe ich International Production Engineering and Management studiert. Allerdings wurde mir schnell bewusst, dass die Arbeitsweise der Ingenieure nicht zu mir passt. Im Zuge meiner Bachelorarbeit hatte ich erste Kontakte mit der Programmierung. Leider musste ich 2019, trotz abgeschlossener Bachelorarbeit, mein Studium wegen einer nicht bestandenen Prüfung ohne Abschluss beenden."
-      },
-      "Wie ...": {
-        "eyeCatcher": ".. ich vom beinahe Ingenieur zum Entwickler wurde.",
-        "content": " Im Herbst 2019 habe ich beschlossen, meine Karriere als Entwickler zu beginnen und habe mir über Skillshare und Youtube die Grundlagen der Web Entwicklung selbst beigebracht. Ende des Jahres wurde ich zum dev.jetzt Bootcamp akzeptiert und habe dort moderne Tools und Frameworks kennengelernt. Den Sommer 2020 habe ich zuhause (obviously lol) damit verbracht, komplexere Projekte in React (Pokemon Map Maker, Battle System) zu coden und Bewerbungen zu schreiben, bis ich im Oktober 2020 mein Praktikum bei Codecamp:N beginnen durfte. Hier konnte ich das erste Mal im Team mit erfahrenen Kollegen arbeiten. 18 Monate nach meinen ersten Hello World Tutorials begann mein erster Tag bei Wechselgott als Vollzeit Frontend Entwickler."
-      },
-      "Was ...": {
-        "eyeCatcher": ".. macht mich zu einem guten Entwickler?",
-        "content": " Ich bin begeisterter Self Learner, Ausprobierer und Kreativer. Ich baue meine eigenen Möbel, habe schon mein eigenes Bier gebraut und Brot gebacken und setze in all meinen Projekten auf eine kreativ-iterative Arbeitsweise. Software Development ermöglicht es mir, schnell neue Ideen und meine Projekte von der Idee bis zum Deployment und weiter zu begleiten."
-      },
-      "Wohin ...": {
-        "eyeCatcher": " .. möchte ich mich weiterentwickeln.",
-        "content": " In meiner nächsten Rolle möchte ich mehr über die Architektur und Struktur von großen Frontend Projekten lernen und durch die Zusammenarbeit mit erfahrenen Mentoren meine Fähigkeiten als Entwickler ausbauen. Ich möchte auch mehr über agile Arbeit und Organisation lernen und gerne wieder Verantwortung für das Anwenden agiler Methoden übernehmen."
+    },
+    "projects": {
+      "headline": "My Projects and Courses",
+      "content": {
+        "Pokemon Monorepo": {
+          "skills": [
+            "Micro Frontends",
+            "Monorepo",
+            "React",
+            "Typescript",
+            "Material UI",
+            "Bootstrap",
+            "lerna"
+          ],
+
+          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
+          "content": "I am developing different parts of a classic pokemon game in a monorepo package architecture. This extensive project has accompanied me throughout my developer journey."
+        },
+        "This CV": {
+          "skills": ["Next.js", "React", "Material UI"],
+
+          "githubLink": "https://github.com/chriskuhtz/cv",
+          "content": "Since a cv is a static page, it was a good opportunity to try out next.js"
+        },
+
+        "Full Stack Open": {
+          "skills": [
+            "React",
+            "Node.js",
+            "GraphQL",
+            "Express",
+            "Jest",
+            "Redux",
+            "Typescript",
+            "Material UI",
+            "Bootstrap",
+            "Docker"
+          ],
+          "link": {
+            "href": "https://fullstackopen.com/en/",
+            "text": "to the course"
+          },
+
+          "content": "This University of Helsinki course teaches modern Full Stack Development. Especially interesting to me are the topics of structured API interaction and GraphQL."
+        },
+        "Modern JavaScript: Iterators and Generators": {
+          "skills": ["Advanced Javascript", "Iterators", "Generators"],
+          "link": {
+            "href": "https://www.coursera.org/account/accomplishments/verify/LP7XMZ6PQS3A?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project",
+            "text": "to the course"
+          },
+          "content": "a short Coursera class about the advanced Javascript concepts of iterators and generators."
+        }
+      }
+    },
+    "history": {
+      "headline": "How and why i became a developer",
+      "content": {
+        "Before ...": {
+          "eyeCatcher": ".. I was a developer, ",
+          "content": "I studied International Production Engineering and Management. But i quickly realized that the job of an engineer was not right for me. Unfortunately, i had to leave the program without a degree in 2019."
+        },
+        "How ...": {
+          "eyeCatcher": ".. I turned from almost engineer into a developer",
+          "content": " In late 2019 i decided to pursue a career as a software developer and started learning frontend developer through skillshare and youtube. At the end of the year, i was accepted into the dev.jetzt program and was introduced to modern tools and frameworks. I spent the spring and summer of 2020 coding larger projects and writing internship applications, until i began my internship at Codecamp:N in October. Here, i found my first mentors and gained experience in the cooperative aspects of sofware development. 18 months after my first 'hello world' tutorials, i started my first full time developer job at Wechselgott."
+        },
+        "What ...": {
+          "eyeCatcher": "..makes me a good developer?",
+          "content": " I am a passionate self learner and creator. I build furniture in my free time and have brewed my own beer and baked sourdough. I love learning new things through trial and error. As a software developer, i can realize my projects in rapid iterative cycles and without fear of mistakes."
+        },
+        "Where ...": {
+          "eyeCatcher": " .. do I want to grow",
+          "content": " In my next role, i want to learn more about the architecture of complex frontend applications and improve my skills with the help of experienced mentors. I would also like to take responsibility for the agile processes of my team again."
+        }
       }
     }
   }
