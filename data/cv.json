@@ -77,9 +77,12 @@
             "Bootstrap",
             "lerna"
           ],
-
+          "link": {
+            "href": "https://github.com/chriskuhtz/pokemonModules",
+            "text": "Github Link"
+          },
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-          "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich habe Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps gegliedert, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
+          "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich bin dabei, die Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps zu gliedern, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
         },
         "Dieser Lebenslauf": {
           "skills": ["Next.js", "React", "Material UI"],
@@ -224,7 +227,10 @@
             "Bootstrap",
             "lerna"
           ],
-
+          "link": {
+            "href": "https://github.com/chriskuhtz/pokemonModules",
+            "text": "github link"
+          },
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
           "content": "I am developing different parts of a classic pokemon game in a monorepo package architecture. This extensive project has accompanied me throughout my developer journey."
         },
