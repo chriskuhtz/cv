@@ -11,6 +11,7 @@ import Head from "next/head";
 import Header from "../segments/Header";
 import WorkExperience from "../segments/WorkExperience";
 import Projects from "../segments/Projects";
+import Courses from "../segments/Courses";
 import History from "../segments/History";
 import ContactMe from "../segments/ContactMe";
 import SwipableTemplate from "../templates/SwipableTemplate";
@@ -52,6 +53,7 @@ export default function Home() {
               <WorkExperience
                 workHistory={english ? eng.workHistory : de.workHistory}
               />
+              <Courses courses={english ? eng.courses : de.courses} />
               <Projects projects={english ? eng.projects : de.projects} />
               <History history={english ? eng.history : de.history} />
             </Stack>

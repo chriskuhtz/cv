@@ -28,6 +28,7 @@ const BoxedSubSegmentTemplate = ({ data }) => {
           borderWidth: "2px",
           borderRadius: 2,
           p: 1,
+          mx: 0.5,
         }}
       >
         <Grid container rowspacing={2} columnSpacing={{ xs: 0, sm: 2 }}>

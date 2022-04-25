@@ -1,14 +1,14 @@
 import SegmentTemplate from "../templates/SegmentTemplate";
 import SubSegmentTemplate from "../templates/SubSegmentTemplate";
 
-const Projects = ({ projects }) => {
+const Courses = ({ courses }) => {
   return (
-    <SegmentTemplate data={projects}>
-      {Object.entries(projects.content).map((d) => (
+    <SegmentTemplate data={courses}>
+      {Object.entries(courses.content).map((d) => (
         <SubSegmentTemplate headline={d[0]} content={d[1]} key={d[0]} />
       ))}
     </SegmentTemplate>
   );
 };
 
-export default Projects;
+export default Courses;

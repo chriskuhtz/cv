@@ -64,34 +64,10 @@
         }
       }
     },
-    "projects": {
-      "headline": "Meine Projekte und Kurse",
+    "courses": {
+      "headline": "Meine Kurse und Zertifikate",
       "content": {
-        "Pokemon Monorepo": {
-          "skills": [
-            "Micro Frontends",
-            "Monorepo",
-            "React",
-            "Typescript",
-            "Material UI",
-            "Bootstrap",
-            "lerna"
-          ],
-          "link": {
-            "href": "https://github.com/chriskuhtz/pokemonModules",
-            "text": "Github Link"
-          },
-          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-          "content": "In diesem Projekt entwickle ich ein klassisches Nintendo Pokemon Spiel als Micro Frontend Architektur. Ich bin dabei, die Teilkomponenten des Spiels (z.B. Item Tasche, Overworld View, Battle View) in einzelne React Apps zu gliedern, die von einer Haupt App importiert werden können. Diese Architekur erlaubt es mir, einzelne Teile des Projekts separat zu deployen, oder sie in verschiedenen Apps gleichzeitig zu benutzen."
-        },
-        "Dieser Lebenslauf": {
-          "skills": ["Next.js", "React", "Material UI"],
-
-          "githubLink": "https://github.com/chriskuhtz/cv",
-          "content": "Da ein Lebenslauf komplett statisch ist, war es das perfekte Beispielprojekt, um Next.js als Static Site Generator auszuprobieren"
-        },
-
-        "Full Stack Open": {
+        "U of Helsinki: Full Stack Open": {
           "skills": [
             "React",
             "Node.js",
@@ -106,18 +82,56 @@
           ],
           "link": {
             "href": "https://fullstackopen.com/en/",
-            "text": "Zum Kurs"
+            "text": "zum Kurs"
           },
 
           "content": "Mit diesem kostenlosen Kurs (mit bewerteten Übungen) der Universität von Helsinki vertiefe ich im Moment mein Wissen über Full Stack Development. Besonders möchte ich mehr strukturierte Frontend Backend Kommunikation und GraphQL Datenbanken lernen."
+        },
+        "U of Alberta: Object-Oriented Design": {
+          "skills": ["UML", "Software Design", "Java", "Android Development"],
+          "link": {
+            "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
+            "text": "zum Kurs"
+          },
+          "content": "Der erste von 4 Kursen in der 'Software Design and Architecture Specialization' von coursera. Mit dieser Spezialisierung vertiefe ich meine Kenntnisse in klassischer Software Architektur. Aktuell arbeite ich am zweiten Kurs (Design Patterns). "
         },
         "Modern JavaScript: Iterators and Generators": {
           "skills": ["Advanced Javascript", "Iterators", "Generators"],
           "link": {
             "href": "https://www.coursera.org/account/accomplishments/verify/LP7XMZ6PQS3A?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project",
-            "text": "Zum Kurs"
+            "text": "zum Kurs"
           },
-          "content": "Ein kurzer Coursera Kurs über die fortgeschrittenen Javascript Konzepte von Iterators und Generators."
+          "content": "Eine kurze Vertiefung, die sich mit Iteratoren und Generatoren in Javascript beschaeftigt."
+        }
+      }
+    },
+    "projects": {
+      "headline": "Meine Projekte",
+      "content": {
+        "Wtfinance": {
+          "skills": ["React", "Bootstrap", "react-chartjs"],
+
+          "githubLink": "https://github.com/chriskuhtz/wtfinance",
+          "content": "Verstaendnis fuer die eigenen Finanzen ist ein Thema, das mir sehr wichtig ist. Mit dieser Web App stelle ich Tools und Informationen zur Verfuegung, um dieses Verstaendnis zu vertiefen."
+        },
+        "Pokemon Projekte": {
+          "skills": [
+            "Typescript",
+            "Monorepo",
+            "React",
+            "Material UI",
+            "Bootstrap",
+            "lerna"
+          ],
+
+          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
+          "content": "Pokemon bieten tiefe Datenstrukturen und komplexe Interaktionen fuer jedes Architektur/Technologie Beispiel, das mir in den Sinn kommt."
+        },
+        "This CV": {
+          "skills": ["Next.js", "React", "Material UI"],
+
+          "githubLink": "https://github.com/chriskuhtz/cv",
+          "content": "Da ein Lebenslauf eine statische Content Seite ist, war es eine gute Gelegenheit, um next.js zu testen."
         }
       }
     },
@@ -214,34 +228,10 @@
         }
       }
     },
-    "projects": {
-      "headline": "My Projects and Courses",
+    "courses": {
+      "headline": "My Courses and Classes",
       "content": {
-        "Pokemon Monorepo": {
-          "skills": [
-            "Micro Frontends",
-            "Monorepo",
-            "React",
-            "Typescript",
-            "Material UI",
-            "Bootstrap",
-            "lerna"
-          ],
-          "link": {
-            "href": "https://github.com/chriskuhtz/pokemonModules",
-            "text": "github link"
-          },
-          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-          "content": "I am developing different parts of a classic pokemon game in a monorepo package architecture. This extensive project has accompanied me throughout my developer journey."
-        },
-        "This CV": {
-          "skills": ["Next.js", "React", "Material UI"],
-
-          "githubLink": "https://github.com/chriskuhtz/cv",
-          "content": "Since a cv is a static page, it was a good opportunity to try out next.js"
-        },
-
-        "Full Stack Open": {
+        "U of Helsinki: Full Stack Open": {
           "skills": [
             "React",
             "Node.js",
@@ -261,6 +251,14 @@
 
           "content": "This University of Helsinki course teaches modern Full Stack Development. Especially interesting to me are the topics of structured API interaction and GraphQL."
         },
+        "U of Alberta: Object-Oriented Design": {
+          "skills": ["UML", "Software Design", "Java", "Android Development"],
+          "link": {
+            "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
+            "text": "to the course"
+          },
+          "content": "This is the first of four courses in the 'Software Design and Architecture Specialization' form coursera. I am currently working through the second course (Design Patterns) "
+        },
         "Modern JavaScript: Iterators and Generators": {
           "skills": ["Advanced Javascript", "Iterators", "Generators"],
           "link": {
@@ -268,6 +266,36 @@
             "text": "to the course"
           },
           "content": "a short Coursera class about the advanced Javascript concepts of iterators and generators."
+        }
+      }
+    },
+    "projects": {
+      "headline": "My Practice Projects",
+      "content": {
+        "Wtfinance": {
+          "skills": ["React", "Bootstrap", "react-chartjs"],
+
+          "githubLink": "https://github.com/chriskuhtz/wtfinance",
+          "content": "Personal financial literacy is a topic that is very important to me. With this site i intend to provide other people with tools and information to gain a better understanding of their financial situation. "
+        },
+        "Pokemon Projects": {
+          "skills": [
+            "Typescript",
+            "Monorepo",
+            "React",
+            "Material UI",
+            "Bootstrap",
+            "lerna"
+          ],
+
+          "githubLink": "https://github.com/chriskuhtz/pokemonModules",
+          "content": "Pokemon offers a deep data structure and complex interactions for any example project/technology i want to learn about"
+        },
+        "This CV": {
+          "skills": ["Next.js", "React", "Material UI"],
+
+          "githubLink": "https://github.com/chriskuhtz/cv",
+          "content": "Since a cv is a static page, it was a good opportunity to try out next.js"
         }
       }
     },
