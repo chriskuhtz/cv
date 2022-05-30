@@ -87,13 +87,19 @@
 
           "content": "Mit diesem kostenlosen Kurs (mit bewerteten Übungen) der Universität von Helsinki vertiefe ich im Moment mein Wissen über Full Stack Development. Besonders möchte ich mehr strukturierte Frontend Backend Kommunikation und GraphQL Datenbanken lernen."
         },
-        "U of Alberta: Object-Oriented Design": {
-          "skills": ["UML", "Software Design", "Java", "Android Development"],
+        "U of Alberta: Software Design and Architecture Specialization": {
+          "skills": [
+            "UML",
+            "Software Design",
+            "Software Architecture",
+            "Java",
+            "Android Development"
+          ],
           "link": {
             "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
             "text": "zum Kurs"
           },
-          "content": "Der erste von 4 Kursen in der 'Software Design and Architecture Specialization' von coursera. Mit dieser Spezialisierung vertiefe ich meine Kenntnisse in klassischer Software Architektur. Aktuell arbeite ich am zweiten Kurs (Design Patterns). "
+          "content": "Mit dieser Spezialisierung habe ich meine Kenntnisse in klassischer Software Architektur verbessert. Ich habe den Umgang mit diversen UML Diagrammen, Design Patterns und Code Smells gelernt. "
         },
         "Modern JavaScript: Iterators and Generators": {
           "skills": ["Advanced Javascript", "Iterators", "Generators"],
@@ -251,13 +257,19 @@
 
           "content": "This University of Helsinki course teaches modern Full Stack Development. Especially interesting to me are the topics of structured API interaction and GraphQL."
         },
-        "U of Alberta: Object-Oriented Design": {
-          "skills": ["UML", "Software Design", "Java", "Android Development"],
+        "U of Alberta: Software Design and Architecture Specialization": {
+          "skills": [
+            "UML",
+            "Software Design",
+            "Software Architecture",
+            "Java",
+            "Android Development"
+          ],
           "link": {
             "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
             "text": "to the course"
           },
-          "content": "This is the first of four courses in the 'Software Design and Architecture Specialization' form coursera. I am currently working through the second course (Design Patterns) "
+          "content": "With this 4 course Specialization, i improved my knowledge of classical Software Architecture. I learned about various UML Diagrams, Design Patterns and best practices."
         },
         "Modern JavaScript: Iterators and Generators": {
           "skills": ["Advanced Javascript", "Iterators", "Generators"],
