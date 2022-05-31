@@ -9,7 +9,12 @@ const SocialChips = () => {
   const SmOrUp = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <Box display="flex" justifyContent={SmOrUp ? "flex-start" : "center"}>
-      <IconButton size="large" color="primary" href={de.header.linkedIn}>
+      <IconButton
+        size="large"
+        color="primary"
+        href={de.header.linkedIn}
+        target="_blank"
+      >
         <LinkedInIcon fontSize="inherit" />
       </IconButton>
       <IconButton
@@ -19,7 +24,12 @@ const SocialChips = () => {
       >
         <EmailIcon fontSize="inherit" />
       </IconButton>
-      <IconButton size="large" color="primary" href={de.header.github}>
+      <IconButton
+        size="large"
+        color="primary"
+        href={de.header.github}
+        target="_blank"
+      >
         <GitHubIcon fontSize="inherit" />
       </IconButton>
     </Box>

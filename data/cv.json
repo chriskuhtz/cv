@@ -96,7 +96,7 @@
             "Android Development"
           ],
           "link": {
-            "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
+            "href": "https://www.coursera.org/account/accomplishments/specialization/EBXUAPRA7EL8",
             "text": "zum Kurs"
           },
           "content": "Mit dieser Spezialisierung habe ich meine Kenntnisse in klassischer Software Architektur verbessert. Ich habe den Umgang mit diversen UML Diagrammen, Design Patterns und Code Smells gelernt. "
@@ -114,30 +114,24 @@
     "projects": {
       "headline": "Meine Projekte",
       "content": {
-        "Wtfinance": {
-          "skills": ["React", "Bootstrap", "react-chartjs"],
-
-          "githubLink": "https://github.com/chriskuhtz/wtfinance",
-          "content": "Verstaendnis fuer die eigenen Finanzen ist ein Thema, das mir sehr wichtig ist. Mit dieser Web App stelle ich Tools und Informationen zur Verfuegung, um dieses Verstaendnis zu vertiefen."
-        },
-        "Pokemon Projekte": {
+        "Pokemon Modules": {
           "skills": [
             "Typescript",
             "Monorepo",
             "React",
+            "Redux Toolkit",
             "Material UI",
             "Bootstrap",
             "lerna"
           ],
 
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-          "content": "Pokemon bieten tiefe Datenstrukturen und komplexe Interaktionen fuer jedes Architektur/Technologie Beispiel, das mir in den Sinn kommt."
-        },
-        "This CV": {
-          "skills": ["Next.js", "React", "Material UI"],
+          "link": {
+            "href": "https://pokemonmodules-blog.netlify.app/",
+            "text": "zum Development Blog"
+          },
 
-          "githubLink": "https://github.com/chriskuhtz/cv",
-          "content": "Da ein Lebenslauf eine statische Content Seite ist, war es eine gute Gelegenheit, um next.js zu testen."
+          "content": "Um meine Fähigkeiten als fortgeschrittener Frontend Entwickler zu zeigen und zu verbessern, arbeite ich an einem weitreichenden Projekt, anstelle an vielen kleinen. Ein Pokemon Projekt ist aufgrund der Datentiefe und der möglichen Funktionalitäten perfekt dafür. Zum Beispiel habe ich den Pokemon Kampfprozess durch Frontend state handling nachgebaut. "
         }
       }
     },
@@ -197,7 +191,7 @@
             "href": "https://www.wechselgott.de",
             "text": "company link"
           },
-          "time": "06.2021-heute",
+          "time": "06.2021-today",
           "content": "I currently work at a Startup called Wechselgott as a Frontend Developer. I have developed new Features for the web app, implemented a new frontend architecture with my coworkers and introduced end to end testing with codeceptJS. I also organize my team's daily meeting and retrospectives. "
         },
         "CodeCamp:N": {
@@ -266,7 +260,7 @@
             "Android Development"
           ],
           "link": {
-            "href": "https://www.coursera.org/account/accomplishments/verify/7JP9TNVH5VCT",
+            "href": "https://www.coursera.org/account/accomplishments/specialization/EBXUAPRA7EL8",
             "text": "to the course"
           },
           "content": "With this 4 course Specialization, i improved my knowledge of classical Software Architecture. I learned about various UML Diagrams, Design Patterns and best practices."
@@ -282,32 +276,25 @@
       }
     },
     "projects": {
-      "headline": "My Practice Projects",
+      "headline": "My Projects",
       "content": {
-        "Wtfinance": {
-          "skills": ["React", "Bootstrap", "react-chartjs"],
-
-          "githubLink": "https://github.com/chriskuhtz/wtfinance",
-          "content": "Personal financial literacy is a topic that is very important to me. With this site i intend to provide other people with tools and information to gain a better understanding of their financial situation. "
-        },
-        "Pokemon Projects": {
+        "Pokemon Modules": {
           "skills": [
             "Typescript",
             "Monorepo",
             "React",
+            "Redux Toolkit",
             "Material UI",
             "Bootstrap",
             "lerna"
           ],
 
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
-          "content": "Pokemon offers a deep data structure and complex interactions for any example project/technology i want to learn about"
-        },
-        "This CV": {
-          "skills": ["Next.js", "React", "Material UI"],
-
-          "githubLink": "https://github.com/chriskuhtz/cv",
-          "content": "Since a cv is a static page, it was a good opportunity to try out next.js"
+          "link": {
+            "href": "https://pokemonmodules-blog.netlify.app/",
+            "text": "read the development blog"
+          },
+          "content": "To showcase and improve my skills as an advanced frontend developer, i want to create one large continuous project, instead of multiple small ones. Pokemon is perfect for this, because of the topics extensive data and possible functionalities. For example remaking the battle system using frontend state handling)."
         }
       }
     },

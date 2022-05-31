@@ -13,12 +13,18 @@ import {
 import { useState } from "react";
 import ChipTemplate from "./ChipTemplate";
 
-const SubSegmentTemplate = ({ headline, content }) => {
+const SubSegmentTemplate = ({ headline, content, singleSegment }) => {
   const theme = useTheme();
   const isSmOrUp = useMediaQuery(theme.breakpoints.up("sm"));
   const [open, setOpen] = useState(content.defaultOpen && isSmOrUp);
   return (
-    <Grid item xs={12} sm={open ? 12 : 6} md={open ? 12 : 4} key={headline}>
+    <Grid
+      item
+      xs={12}
+      sm={open || singleSegment ? 12 : 6}
+      md={open || singleSegment ? 12 : 4}
+      key={headline}
+    >
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h5" color="primary">
@@ -28,6 +34,7 @@ const SubSegmentTemplate = ({ headline, content }) => {
                 size="large"
                 color="primary"
                 href={content.githubLink}
+                target="_blank"
               >
                 <GitHubIcon fontSize="inherit" />
               </IconButton>
@@ -36,7 +43,7 @@ const SubSegmentTemplate = ({ headline, content }) => {
           <Typography variant="subtitle2">{content.time}</Typography>
 
           {content.link && (
-            <Link variant="subtitle2" href={content.link.href}>
+            <Link variant="subtitle2" href={content.link.href} target="_blank">
               {content.link.text}
             </Link>
           )}
@@ -45,7 +52,7 @@ const SubSegmentTemplate = ({ headline, content }) => {
         {content.skills && (
           <Grid item xs={12} onClick={() => setOpen(!open)}>
             {content.skills
-              .slice(0, open ? content.skills.length : 3)
+              .slice(0, open || singleSegment ? content.skills.length : 3)
               .map((s) => (
                 <ChipTemplate key={s} label={s} />
               ))}
