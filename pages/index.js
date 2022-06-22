@@ -32,20 +32,33 @@ export default function Home() {
       </Head>
 
       <main>
-        {
-          /*SmOrUp ? (*/
-          <Container sx={{ py: 3 }} maxWidth="md">
-            <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
-              <FormGroup>
-                <FormControlLabel
-                  control={<Switch defaultChecked />}
-                  label={english ? "english" : "deutsch"}
-                  onClick={() => setEnglish(!english)}
-                />
-              </FormGroup>
-            </Box>
+        <Container sx={{ py: 3 }} maxWidth="md">
+          <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+            <FormGroup>
+              <FormControlLabel
+                control={<Switch defaultChecked />}
+                label={english ? "english" : "deutsch"}
+                onClick={() => setEnglish(!english)}
+              />
+            </FormGroup>
+          </Box>
 
-            <Stack spacing={3} direction="column">
+          <Stack spacing={3} direction="column">
+            <Header
+              header={english ? eng.header : de.header}
+              english={english}
+            />{" "}
+            <WorkExperience
+              workHistory={english ? eng.workHistory : de.workHistory}
+            />
+            <Projects projects={english ? eng.projects : de.projects} />
+            <Courses courses={english ? eng.courses : de.courses} />
+            {/* <History history={english ? eng.history : de.history} /> */}
+          </Stack>
+        </Container>
+
+        {/* <Container>
+            <SwipableTemplate>
               <Header
                 header={english ? eng.header : de.header}
                 english={english}
@@ -53,23 +66,11 @@ export default function Home() {
               <WorkExperience
                 workHistory={english ? eng.workHistory : de.workHistory}
               />
-              <Courses courses={english ? eng.courses : de.courses} />
               <Projects projects={english ? eng.projects : de.projects} />
+              <Courses courses={english ? eng.courses : de.courses} />
               <History history={english ? eng.history : de.history} />
-            </Stack>
-          </Container>
-          /*) : (
-          <Container>
-            <SwipableTemplate>
-              <Header />
-              <WorkExperience />
-              <Projects />
-              <History />
-              <ContactMe />
             </SwipableTemplate>
-          </Container>
-        )*/
-        }
+          </Container> */}
       </main>
     </div>
   );

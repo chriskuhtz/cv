@@ -3,7 +3,7 @@
     "header": {
       "name": "Christopher Kühtz",
       "jobTitle": "Frontend Developer",
-      "jobSubtitle": "Scrum Apprentice",
+      "jobSubtitle": "Scrum Coordinator",
       "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
       "email": "christopherkuhtz@gmail.com",
       "github": "https://github.com/chriskuhtz",
@@ -11,7 +11,7 @@
     },
 
     "workHistory": {
-      "headline": "Meine Erfahrungen als Entwickler",
+      "headline": "Meine Arbeit als Entwickler",
       "content": {
         "Wechselgott": {
           "defaultOpen": true,
@@ -45,7 +45,12 @@
           "link": { "href": "https://www.codecamp-n.com", "text": "zur Firma" },
           "time": "10.2020-04.2021",
           "content": " Ich war bei CodeCamp:N, einer Tochtergesellschaft der Nürnberger Versicherung, für 6 Monate als Praktikant in der Frontend Entwicklung tätig. Im Projekt Meine Vorsorgedokumente habe ich neue Features mit Vue.js entwickelt und maßgeblich das Design der Web App mit Bootstrap und einem custom SCSS theme umgebaut. Hier habe ich das erste Mal in einem nach Scrum organisierten Team gearbeitet."
-        },
+        }
+      }
+    },
+    "courses": {
+      "headline": "Meine Kurse und Zertifikate",
+      "content": {
         "dev.jetzt Bootcamp": {
           "skills": [
             "React",
@@ -61,12 +66,7 @@
           },
           "time": "02.2020-03.2020",
           "content": "Meine erste offizielle Erfahrung als Entwickler war das dev.jetzt Bootcamp von Mantro. Als einer von 12 Teilnehmern (Bewerbungsprozess, Teilnahme kostenlos) habe ich über 3 Wochen einen Einblick in den MERN Stack und in die Prozesse der Software Entwicklung bekommen."
-        }
-      }
-    },
-    "courses": {
-      "headline": "Meine Kurse und Zertifikate",
-      "content": {
+        },
         "U of Helsinki: Full Stack Open": {
           "skills": [
             "React",
@@ -112,7 +112,7 @@
       }
     },
     "projects": {
-      "headline": "Meine Projekte",
+      "headline": "Mein Side Projekt",
       "content": {
         "Pokemon Modules": {
           "skills": [
@@ -127,8 +127,8 @@
 
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
           "link": {
-            "href": "https://pokemonmodules-blog.netlify.app/",
-            "text": "zum Development Blog"
+            "href": "https://github.com/chriskuhtz/pokemonModules",
+            "text": "zu Github"
           },
 
           "content": "Um meine Fähigkeiten als fortgeschrittener Frontend Entwickler zu zeigen und zu verbessern, arbeite ich an einem weitreichenden Projekt, anstelle an vielen kleinen. Ein Pokemon Projekt ist aufgrund der Datentiefe und der möglichen Funktionalitäten perfekt dafür. Zum Beispiel habe ich den Pokemon Kampfprozess durch Frontend state handling nachgebaut. "
@@ -161,7 +161,7 @@
     "header": {
       "name": "Christopher Kuhtz",
       "jobTitle": "Frontend Developer",
-      "jobSubtitle": "Scrum Apprentice",
+      "jobSubtitle": "Scrum Coordinator",
       "linkedIn": "https://www.linkedin.com/in/christopher-k%C3%BChtz-00701618a/",
       "email": "christopherkuhtz@gmail.com",
       "github": "https://github.com/chriskuhtz",
@@ -169,7 +169,7 @@
     },
 
     "workHistory": {
-      "headline": "Experience as a Developer",
+      "headline": "My Work as a Developer",
       "content": {
         "Wechselgott": {
           "defaultOpen": true,
@@ -209,7 +209,12 @@
           },
           "time": "10.2020-04.2021",
           "content": "I was an intern at Codecamp:N for six months. During my Internship, i worked on a web app with vue.js and bootstrap and was part of a scrum team for the first time."
-        },
+        }
+      }
+    },
+    "courses": {
+      "headline": "My Courses and Classes",
+      "content": {
         "dev.jetzt Bootcamp": {
           "skills": [
             "React",
@@ -225,12 +230,7 @@
           },
           "time": "02.2020-03.2020",
           "content": "I was one of 12 accepted participants for the mantro dev.jetzt Bootcamp, during which i gained first experiences with MERN Stack development and the day to day processes of a software development company."
-        }
-      }
-    },
-    "courses": {
-      "headline": "My Courses and Classes",
-      "content": {
+        },
         "U of Helsinki: Full Stack Open": {
           "skills": [
             "React",
@@ -276,7 +276,7 @@
       }
     },
     "projects": {
-      "headline": "My Projects",
+      "headline": "My Side Project",
       "content": {
         "Pokemon Modules": {
           "skills": [
@@ -291,10 +291,10 @@
 
           "githubLink": "https://github.com/chriskuhtz/pokemonModules",
           "link": {
-            "href": "https://pokemonmodules-blog.netlify.app/",
-            "text": "read the development blog"
+            "href": "https://github.com/chriskuhtz/pokemonModules",
+            "text": "github link"
           },
-          "content": "To showcase and improve my skills as an advanced frontend developer, i want to create one large continuous project, instead of multiple small ones. Pokemon is perfect for this, because of the topics extensive data and possible functionalities. For example remaking the battle system using frontend state handling)."
+          "content": "To showcase and improve my skills as an advanced frontend developer, i want to create one large continuous project, instead of multiple small ones. Pokemon is perfect for this, because of the topics extensive data and possible functionalities. E.g. implementing the battle system using frontend state handling with Redux."
         }
       }
     },
