@@ -47,10 +47,11 @@ export default function Home() {
             <Header
               header={english ? eng.header : de.header}
               english={english}
-            />{" "}
+            />
             <WorkExperience
               workHistory={english ? eng.workHistory : de.workHistory}
             />
+            <Projects projects={english ? eng.openSource : de.openSource} />
             <Projects projects={english ? eng.projects : de.projects} />
             <Courses courses={english ? eng.courses : de.courses} />
             {/* <History history={english ? eng.history : de.history} /> */}

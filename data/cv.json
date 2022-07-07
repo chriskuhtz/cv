@@ -111,6 +111,20 @@
         }
       }
     },
+    "openSource": {
+      "headline": "Mein Open Source Package",
+      "content": {
+        "BugButton": {
+          "skills": ["Typescript", "Github API", "React"],
+
+          "link": {
+            "href": "https://www.npmjs.com/package/bugbutton",
+            "text": "npmjs.com/package/bugbutton"
+          },
+          "content": "BugButton verbessert manuelles Bug Reporting! Tester legen Github Issues an, ohne die Seite zu verlassen. Developer bekommen alle Daten geliefert, die sie brauchen, um das Problem zu verstehen und zu beheben."
+        }
+      }
+    },
     "projects": {
       "headline": "Mein Side Projekt",
       "content": {
@@ -272,6 +286,20 @@
             "text": "to the course"
           },
           "content": "a short Coursera class about the advanced Javascript concepts of iterators and generators."
+        }
+      }
+    },
+    "openSource": {
+      "headline": "My Open Source Package",
+      "content": {
+        "BugButton": {
+          "skills": ["Typescript", "Github API", "React"],
+
+          "link": {
+            "href": "https://www.npmjs.com/package/bugbutton",
+            "text": "npmjs.com/package/bugbutton"
+          },
+          "content": "BugButton improves your manual Bug Reporting! It lets testers create Github Issues without leaving the page and allows Developers to add any data they might need to the Issues."
         }
       }
     },
